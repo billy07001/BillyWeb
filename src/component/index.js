@@ -8,18 +8,15 @@ function Index() {
     return (
         <div className="App">
             <div className="App-header">
-                <Carousel>
+                <Carousel className="index_carousel">
                     <Carousel.Item>
-                        <img
-                            className="d-block w-100"
-                            src={myphoto_1}
-                            alt="First slide"
-                        />
+                        <img className="d-block w-100" src={myphoto_1} alt="First" />
                         <Carousel.Caption>
-                            <h3>First slide label</h3>
-                            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                            <h3>Hi, My name is Billy</h3>
+                            <p>Welcome to my website</p>
                         </Carousel.Caption>
                     </Carousel.Item>
+
                     <Carousel.Item>
                         <img
                             className="d-block w-100"
@@ -32,6 +29,8 @@ function Index() {
                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                         </Carousel.Caption>
                     </Carousel.Item>
+
+
                     <Carousel.Item>
                         <img
                             className="d-block w-100"
@@ -44,6 +43,8 @@ function Index() {
                             <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
                         </Carousel.Caption>
                     </Carousel.Item>
+
+
                 </Carousel>
             </div>
             <div className="photo">
