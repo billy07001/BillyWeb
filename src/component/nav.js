@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Navbar, Nav, NavDropdown, Form, FormControl, Button, Collapse, Card, Col, Container, Row } from 'react-bootstrap';
 import { Link } from "react-router-dom"
+import '../style/App.css';
 
 
 function formatName(user) {
@@ -20,7 +21,7 @@ const element = (
 
 function Topnav() {
   return (
-    <Navbar bg="dark" expand="lg" variant="dark">
+    <Navbar className="Navbar"  expand="lg" variant="dark">
       <Link to="/"><Navbar.Brand>{element}</Navbar.Brand></Link>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
