@@ -34,9 +34,8 @@ function Topnav() {
           </NavDropdown>
 
           <NavDropdown title="Study note" id="basic-nav-dropdown">
-            <NavDropdown.Item href="#action/3.1">JAVA</NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.2">Web</NavDropdown.Item>
-            <NavDropdown.Item href="#action/3.2">Database</NavDropdown.Item>
+            <Link className="Nav__link" to="/javainstudynote"><NavDropdown.Item href="#javainstudynote">JAVA</NavDropdown.Item></Link>
+            <Link className="Nav__link" to="/webinstudynote"><NavDropdown.Item href="#webinstudynote">Web</NavDropdown.Item></Link>
           </NavDropdown>
         </Nav>
 

@@ -6,6 +6,9 @@ import News from './news/news'
 import Aboutme from './aboutme/aboutme'
 import JAVAinPortfolio from './Portfolio/JAVA/JAVA'
 import WebinPortfolio from './Portfolio/Web/Web'
+import JAVAinStudynote from './Studynote/JAVA/JAVA'
+import WebinStudynote from './Studynote/Web/Web'
+
 import { Route } from "react-router-dom"
 
 function App() {
@@ -17,6 +20,8 @@ function App() {
       <Route exact path="/aboutme" component={Aboutme} />
       <Route exact path="/javainportfolio" component={JAVAinPortfolio} />
       <Route exact path="/webinportfolio" component={WebinPortfolio} />
+      <Route exact path="/webinstudynote" component={WebinStudynote} />
+      <Route exact path="/javainstudynote" component={JAVAinStudynote} />
     </div>
   );
 }
