@@ -64,8 +64,10 @@ function Index() {
                         </Col>
                     </Row>
                 </Container>
+                <div className="news">
+                </div>
             </div>
-        </div>
+        </div >
     );
 }
 

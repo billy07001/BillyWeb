@@ -1,0 +1,13 @@
+.main {
+    margin-top: 5px;
+    padding: 20px;
+    width: 90%;
+    height: 1000px;
+    background-color: white;
+    border:5px outset #939699;
+}
+
+.blogscard {
+    margin: 7px;
+    float:left
+}

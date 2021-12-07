@@ -25,7 +25,7 @@ function Topnav() {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="mr-auto">
-          <Link className="Nav__link" to="/news"><Nav.Link href="#news">News</Nav.Link></Link>
+          <Link className="Nav__link" to="/blogs"><Nav.Link href="#blogs">Blogs</Nav.Link></Link>
           <Link className="Nav__link" to="/aboutme"><Nav.Link href="#aboutme">About me</Nav.Link></Link>
 
           <NavDropdown title="Portfolio" id="basic-nav-dropdown">
@@ -61,7 +61,7 @@ function Clicktodisplay() {
         variant="outline-success"
       >
         Log In
-          </Button>
+      </Button>
 
       <Collapse in={open}>
         <Card>
@@ -86,7 +86,7 @@ function Clicktodisplay() {
                 </Form.Group>
                 <Col><Button variant="success" type="submit">
                   Log In
-            </Button></Col>
+                </Button></Col>
               </Row>
             </Form>
           </Container>

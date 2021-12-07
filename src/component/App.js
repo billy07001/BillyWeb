@@ -2,7 +2,7 @@
 import '../style/App.css';
 import Topnav from './nav';
 import Index from './index';
-import News from './news/news'
+import Blogs from './blogs/blogs'
 import Aboutme from './aboutme/aboutme'
 import JAVAinPortfolio from './Portfolio/JAVA/JAVA'
 import WebinPortfolio from './Portfolio/Web/Web'
@@ -16,7 +16,7 @@ function App() {
     <div className="App">
       <Topnav />
       <Route exact path="/" component={Index} />
-      <Route exact path="/news" component={News} />
+      <Route exact path="/blogs" component={Blogs} />
       <Route exact path="/aboutme" component={Aboutme} />
       <Route exact path="/javainportfolio" component={JAVAinPortfolio} />
       <Route exact path="/webinportfolio" component={WebinPortfolio} />
